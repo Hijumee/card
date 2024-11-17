@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url('naruto.jpg');
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 23%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+}
+
+.card h3 {
+    margin: 20px 10px 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card p {
+    margin: 0 10px 20px;
+    text-align: left;
+}
